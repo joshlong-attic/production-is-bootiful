@@ -1,4 +1,4 @@
-package com.example.bootifu;
+package com.example.bootiful;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.example.bootifu;
+package com.example.bootiful;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
