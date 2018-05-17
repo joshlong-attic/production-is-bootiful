@@ -1,0 +1,9 @@
+applications:
+ -  name: bootiful-reactive-spring
+    path: ./target/bootiful-0.0.1-SNAPSHOT.jar
+    buildpack: java_buildpack
+    env:
+      JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
+      SPRING_PROFILES_ACTIVE: cloud
+    services:
+      - my-mongodb
